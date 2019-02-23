@@ -2,8 +2,6 @@ package by.htp.zanko;
 
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class ReplaceNumberRegularTest {
 
     @Test
@@ -16,7 +14,5 @@ public class ReplaceNumberRegularTest {
         String number = enterNumberPhone.getPhoneNumber(enterNumber);
 
         System.out.println(number);
-
     }
-
 }

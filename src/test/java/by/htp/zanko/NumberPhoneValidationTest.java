@@ -17,7 +17,4 @@ public class NumberPhoneValidationTest {
 
         System.out.println(valid);
     }
-
-
-
 }
