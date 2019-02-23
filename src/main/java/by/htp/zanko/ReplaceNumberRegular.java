@@ -5,7 +5,6 @@ import java.util.regex.Pattern;
 
 public class ReplaceNumberRegular {
 
-
     public String getNumberPhoneRegular(int[] enterNumber) {
 
         StringBuffer sb = new StringBuffer();

@@ -6,8 +6,6 @@ public class EnterNumberPhone {
 
     public String getPhoneNumber(int[] enterNumber) {
 
-//        String phoneNumber; // или здесь, многопоточность !?
-
         phoneNumber = "(";
 
         for (int i = 0; i < enterNumber.length; i++) {
@@ -19,8 +17,6 @@ public class EnterNumberPhone {
             }
             phoneNumber = phoneNumber + enterNumber[i];
         }
-
         return phoneNumber;
     }
-
 }

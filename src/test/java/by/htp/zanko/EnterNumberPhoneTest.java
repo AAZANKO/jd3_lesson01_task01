@@ -14,8 +14,5 @@ public class EnterNumberPhoneTest {
         String numberPhoneRegular = replaceNumberRegular.getNumberPhoneRegular(enterNumber);
 
         System.out.println("numberPhoneRegular= " + numberPhoneRegular);
-
     }
-
-
 }
